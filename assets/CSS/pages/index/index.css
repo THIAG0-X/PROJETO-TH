@@ -1,0 +1,15 @@
+@import '../../global/global.css';
+@import 'partials/main.css';
+@import 'partials/header.css';
+@import 'partials/nav_bar.css';
+
+
+body {
+    display: flex;
+    flex-flow: column wrap;
+    width: 100%;
+    height: 100vh;
+    font-size: var(--fontSize1);
+    font-family: var(--fontPrincipal);
+}
+

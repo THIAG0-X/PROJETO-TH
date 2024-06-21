@@ -1,0 +1,16 @@
+@import 'fonts.css';
+:root {
+    /* font-family */
+    --fontPrincipal: 'Poppins';
+
+    /* font-size */
+    --fontSize1: '1.5em';
+
+    /* color */
+
+    --bgcolor1: #292A33;
+    --bgcolor2: #555B88;
+    --bgcolor3: #333B80;
+    --bgcolor4: #2432B3;
+
+}

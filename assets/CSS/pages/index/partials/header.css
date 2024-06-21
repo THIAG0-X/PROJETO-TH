@@ -1,0 +1,85 @@
+@import '../../../global/global.css';
+/* cabeçalho */
+.header {
+    background-color: var(--bgcolor1);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    height: 100px;
+    min-width: 1000px;
+    width: 100%;
+}
+
+.header > h1 {
+    height: 100%;
+    font-size: 1.5em;
+}
+h1 {
+    color: white;
+}
+/* Logo */
+.logo {
+    height: 100%;
+    width: 300px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.logo a {
+    text-decoration: none;
+}
+.logo  img {
+    width: 145px;
+    height: 100%;
+}
+/* barra de pesquisa */
+.search_bar {
+    position: relative;
+    height: 100%;
+    width: 500px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+.search_bar #pesquisa {
+    height: 50px;
+    width: 500px;
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 1.2em;
+}
+.search_bar > div {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0 10px 10px 0;
+    top: 25px;
+    left: 450px;
+    height: 50px;
+    width: 50px;
+    background-color: var(--bgcolor3);
+}
+.search_bar #pesquisa::placeholder {
+    text-align: left;
+}
+/* Ações do usuário */
+.user_action {
+    height: 100%;
+    width: 300px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.user_action > a {
+    font-size: 14pt;
+    text-decoration: none;
+    color: white;
+}
